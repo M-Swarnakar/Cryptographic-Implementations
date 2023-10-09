@@ -1,0 +1,12 @@
+#To build the executable for AES(128 bit message)
+		gcc -o AES AES_main.o -L -lib_CrytoImp
+		./AES
+#To build the executable for AES CBC mode(128 bit)
+		gcc -o AES_CBC AES_CBC.o -L -lib_CryptoImp
+		./AES_CBC
+#To build the executable for AES CTR mode(128 bit) 
+                gcc -o AES_CTR AES_CTR.o -L -lib_CryptoImp
+                ./AES_CTR
+ #To build the executable for MD5
+		gcc -o MD5 MD5.o -L -lib_CrytoImp
+		./MD5

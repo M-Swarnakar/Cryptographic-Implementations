@@ -1,0 +1,3 @@
+#To build executable for MD5
+		gcc MD5.c
+		./a.out

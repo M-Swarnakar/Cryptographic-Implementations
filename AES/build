@@ -1,0 +1,9 @@
+#To build executable for AES (128 bit msg)
+		gcc AES_main.c
+		./a.out
+#To build executable for AES CBC mode
+		gcc AES_CBC.c
+		./a.out
+#To build executable for AES CTR mode
+                gcc AES_CTR.c
+                ./a.out
