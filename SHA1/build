@@ -1,0 +1,8 @@
+#To build executable for SHA1
+		make SHA1
+		./sha1 message
+#To build executable for HMAC
+		make HMAC
+		./hmac message
+#To clean ".o" and executable files
+		make CLEAN

@@ -15,7 +15,7 @@
 
 uint32_t rotateLeft(uint32_t x, uint32_t n);
 uint32_t rotateRight(uint32_t x, uint32_t n);
-void sha1Main(unsigned char *message);
+void sha1Main(unsigned char *message, uint32_t *digest, uint64_t msg_len);
 void sha1Padding( uint8_t *message, uint64_t offset2, uint64_t padding_len, uint8_t *paddedMsg);
 void sha1_update(uint32_t *X);
 void R1f(uint32_t *X, uint32_t *AA, uint32_t *BB, uint32_t *CC, uint32_t *DD, uint32_t *EE, int i);
